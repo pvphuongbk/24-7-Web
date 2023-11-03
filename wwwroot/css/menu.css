@@ -1,0 +1,46 @@
+﻿.container-menu {
+    margin-top: 10px;
+}
+
+.info-user {
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    margin-bottom: -10px;
+}
+
+.avatar {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #4286f4;
+    margin-bottom: 20px;
+}
+
+.info-detail {
+    margin-top: 3px;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.div-menu {
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+
+.row-menu {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px 10px 3px;
+    font-size: 18px;
+}
+
+    .row-menu span {
+        margin-top: 2px;
+    }
+
+    .row-menu i {
+        font-size: 22px;
+        color: #e3165b;
+    }

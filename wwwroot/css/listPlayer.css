@@ -1,0 +1,55 @@
+﻿.container-listplayer {
+}
+
+.div-list-player {
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    margin-bottom: -10px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.avatar {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    color: rgba(0,0,0,.14);
+    margin-bottom: 20px;
+}
+
+.info-detail {
+    margin-top: 3px;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.icon-danger-delete {
+    color: red;
+    position: absolute;
+    font-size: 22px;
+    top: 6px;
+    right: 115px;
+    cursor: pointer;
+}
+
+.icon-danger-copy {
+    color: blue;
+    position: absolute;
+    font-size: 20px;
+    margin-top: -1px;
+    top: 8px;
+    right: 65px;
+    cursor: pointer;
+}
+
+.icon-danger-info {
+    color: #4286f4;
+    position: absolute;
+    font-size: 25px;
+    margin-top: -1px;
+    top: 6px;
+    right: 10px;
+    cursor: pointer;
+}

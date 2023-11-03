@@ -1,0 +1,114 @@
+﻿@media (max-width: 600px) {
+    /*ghi đè class css*/
+    .xdsoft_datetimepicker {
+        left: 38% !important;
+        top: 50px !important;
+    }
+}
+@media (min-width: 768px) {
+    .floating-button {
+        right: calc(100%/2 - 300px + 20px) !important;
+    }
+    /*ghi đè class css*/
+    .xdsoft_datetimepicker {
+        left: calc(100%/2 + 45px) !important;
+        top: 50px !important;
+    }
+}
+
+.container-messagesByDay {
+    padding-top: 40px;
+}
+
+.title-page {
+    padding: 3px 10px 3px 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.5fr;
+    font-size: 16px;
+}
+
+.title-page-text {
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.synthesis-messages {
+    padding: 15px 10px 10px 20px;
+    background-color: #dee8fc;
+    position: fixed;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    z-index: 999;
+}
+
+.synthesis-parameter-messages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+    .synthesis-parameter-messages div {
+        display: flex;
+        flex-flow: column;
+        gap: 2px;
+    }
+
+        .synthesis-parameter-messages div .title {
+            font-size: 16px;
+            margin-bottom: 2px;
+            text-decoration: underline;
+        }
+
+.synthesis-result-messages {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    gap: 2px;
+    color: #e3165b;
+    font-weight: 600;
+}
+
+.list-detailMessage-messages {
+    margin-top: 230px;
+    padding: 5px;
+}
+
+.content-messages {
+    word-wrap: break-word;
+}
+
+.parameter-messages {
+    padding: 15px 10px 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #e3165b;
+}
+
+    .parameter-messages div {
+        display: flex;
+        flex-flow: column;
+        gap: 2px;
+    }
+
+        .parameter-messages div .title {
+            font-size: 16px;
+            margin-bottom: 2px;
+            text-decoration: underline;
+        }
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e3165b;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    cursor:pointer;
+    border: none;
+    z-index: 999;
+}

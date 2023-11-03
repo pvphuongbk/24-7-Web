@@ -1,0 +1,26 @@
+/* =================
+    utils/variables
+================= */
+
+:root {
+    /* Info */
+    --toast-info: #385bbb;
+    --toast-info-rgb: 56, 91, 187;
+    --toast-info-lighter: hsl(224, 54%, 90%);
+    --toast-info-darker: hsl(224, 54%, 35%);
+    /* Warning */
+    --toast-warning: #F3950D;
+    --toast-warning-rgb: 243, 149, 13;
+    --toast-warning-lighter: hsl(35, 91%, 90%);
+    --toast-warning-darker: hsl(35, 91%, 40%);
+    /* Error */
+    --toast-error: #D32F2F;
+    --toast-error-rgb: 211, 47, 47;
+    --toast-error-lighter: hsl(0, 68%, 90%);
+    --toast-error-darker: hsl(0, 68%, 43%);
+    /* Success */
+    --toast-success: #388E3C;
+    --toast-success-rgb: 56, 142, 60;
+    --toast-success-lighter: hsl(120, 54%, 90%);
+    --toast-success-darker: hsl(120, 54%, 35%);
+}

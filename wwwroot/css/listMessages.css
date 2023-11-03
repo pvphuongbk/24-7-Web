@@ -1,0 +1,110 @@
+﻿@media (max-width: 600px) {
+    /*ghi đè class css*/
+    .xdsoft_datetimepicker {
+        left: 38% !important;
+        top: 50px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .floating-button {
+        right: calc(100%/2 - 300px + 20px) !important;
+    }
+    /*ghi đè class css*/
+    .xdsoft_datetimepicker {
+        left: calc(100%/2 + 45px) !important;
+        top: 50px !important;
+    }
+}
+
+.title-page {
+    padding: 3px 10px 3px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-page-text {
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.container-listMessages {
+    padding: 65px 10px 0px 10px;
+}
+
+.somebutton {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+    .somebutton i {
+        font-size: 25px;
+    }
+
+    .somebutton span {
+        font-size: 16px;
+    }
+
+.mainContent-message {
+    margin-top: 5px;
+    border-radius: 0 0 0 15px;
+    background-color: #dee8fc;
+    padding: 8px;
+    top: 5px;
+    font-family: sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.div-list-message {
+    padding: 5px 5px 5px 45px;
+    gap: 10px;
+    margin-bottom: -10px;
+    position: relative;
+}
+
+.avatar {
+    font-size: 35px;
+    justify-content: center;
+    color: rgba(0,0,0,.14);
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.info-detail {
+    margin-top: 3px;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.icon-danger-delete {
+    color: red;
+    position: absolute;
+    font-size: 22px;
+    top: 6px;
+    right: 115px;
+    cursor: pointer;
+}
+
+.icon-danger-copy {
+    color: blue;
+    position: absolute;
+    font-size: 20px;
+    margin-top: -1px;
+    top: 8px;
+    right: 65px;
+    cursor: pointer;
+}
+
+.icon-danger-info {
+    color: #4286f4;
+    position: absolute;
+    font-size: 25px;
+    margin-top: -1px;
+    top: 6px;
+    right: 10px;
+    cursor: pointer;
+}

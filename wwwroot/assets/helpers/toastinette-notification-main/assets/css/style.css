@@ -1,0 +1,42 @@
+/* ─────────────────────────────────────────────────────────
+/* ------------------ C S S   S T A R T --------------------
+/* ───────────────────────────────────────────────────────── */
+
+/* ─── BASE ──────────────────────────────────────────────── */
+*, 
+*::before, 
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+main {
+    /*height: 100vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ─── RESPONSIVE ────────────────────────────────────────── */
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+
+}
+
+/* ─────────────────────────────────────────────────────────
+/* ------------------- C S S   E N D -----------------------
+/* ───────────────────────────────────────────────────────── */

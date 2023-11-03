@@ -1,0 +1,12 @@
+{
+  "name": "prompt-boxes",
+  "version": "2.0.6",
+  "description": "Plugin for toast messages, prompts and confirmation dialogs.",
+  "main": "src/js/prompt-boxes.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robholden/Prompt-Boxes.git"
+  },
+  "author": "Robert Holden",
+  "license": "ISC"
+}

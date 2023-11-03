@@ -1,0 +1,26 @@
+﻿.title-page {
+    padding: 3px 10px 3px 5px;
+    font-size: 16px;
+}
+
+.title-page-text {
+    margin-top: 12px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.container-addPlayerMessages {
+    padding: 40px 10px 0px 10px;
+}
+
+.div-list-btn-event {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+}
+
+    .div-list-btn-event button {
+        font-size: 12px;
+    }

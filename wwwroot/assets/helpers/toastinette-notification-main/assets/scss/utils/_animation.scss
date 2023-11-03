@@ -1,0 +1,43 @@
+/* =================
+    utils/animations
+================= */
+
+@keyframes toastSlideFromTop {
+    0% {
+        opacity: 0;
+        translate: 0 calc(-100% - 24px);
+    }
+    100% {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes toastSlideFromBottom {
+    0% {
+        opacity: 0;
+        translate: 0 calc(100% + 24px);
+    }
+    100% {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes toastFadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes progressBar {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}

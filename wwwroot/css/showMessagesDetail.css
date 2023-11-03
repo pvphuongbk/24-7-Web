@@ -1,0 +1,24 @@
+﻿.title-page {
+    padding: 3px 10px 3px 5px;
+    font-size: 16px;
+}
+
+.title-page-text {
+    margin-top: 12px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.container-showMessagesDetail {
+    padding: 55px 10px 0px 10px;
+}
+
+.mainContent-message {
+    border-radius: 0 0 0 15px;
+    background-color: #dee8fc;
+    padding: 8px;
+    top: 5px;
+    font-family: sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
