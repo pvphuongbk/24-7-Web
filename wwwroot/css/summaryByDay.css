@@ -1,0 +1,37 @@
+﻿@media (max-width: 600px) {
+    /*ghi đè class css*/
+    .xdsoft_datetimepicker {
+        left: 38% !important;
+        top: 95px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .floating-button {
+        right: calc(100%/2 - 300px + 20px) !important;
+    }
+    /*ghi đè class css*/
+    .xdsoft_datetimepicker {
+        left: calc(100%/2 + 45px) !important;
+        top: 95px !important;
+    }
+}
+
+.container-summaryByDay {
+    padding: 10px;
+}
+
+.div-search-by-day {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar-icon-btn {
+    margin-top: -10px;
+    font-size: 35px;
+    color: #e3165b;
+    cursor: pointer;
+    background: none;
+    border: none;
+    text-align: end;
+}

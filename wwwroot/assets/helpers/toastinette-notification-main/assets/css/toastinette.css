@@ -202,18 +202,18 @@
   transform: translateX(0);
 }
 .toast[data-position=top-center] {
-  top: 24px;
-  bottom: initial;
-  left: 50%;
-  right: initial;
-  transform: translateX(-50%);
+    top: 24px;
+    bottom: initial;
+    left: 50%;
+    right: initial;
+    transform: translateX(-50%);
 }
 .toast[data-position=top-right] {
-  top: 24px;
-  bottom: initial;
-  left: initial;
-  right: 24px;
-  transform: translateX(0);
+    top: 24px;
+    bottom: initial;
+    left: initial;
+    right: 24px;
+    transform: translateX(0);
 }
 .toast[data-position=bottom-left] {
   top: initial;

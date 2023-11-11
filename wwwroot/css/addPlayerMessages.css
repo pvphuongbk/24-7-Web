@@ -1,16 +1,32 @@
-﻿.title-page {
+﻿.e-radio + label.e-right.e-rtl .e-label {
+    font-size: 17px;
+}
+
+.title-page {
     padding: 3px 10px 3px 5px;
     font-size: 16px;
 }
 
 .title-page-text {
     margin-top: 12px;
-    cursor: pointer;
     display: inline-block;
+    cursor: pointer;
 }
 
 .container-addPlayerMessages {
-    padding: 40px 10px 0px 10px;
+    padding-top: 40px;
+}
+
+.box-radio-checkbox {
+    background-color: #dee8fc;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: end;
+    margin-top: 5px;
+    padding-right: 20px;
+    gap: 10px;
+    width: 100%;
 }
 
 .div-list-btn-event {

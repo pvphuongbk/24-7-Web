@@ -107,3 +107,9 @@
             margin-left: 5px;
             color: #ee4d2d;
         }
+
+.div-show-error {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    text-align: center;
+}
